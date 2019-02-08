@@ -1,5 +1,4 @@
 ## ターミナルで二群パラメトリック検定＋多重検定補正
----
 Author:Tomoya Tsukimi  
 Last update:2019-02-08  
 <font color="red">注意</font>：使用は自己責任でお願いします  
@@ -12,7 +11,7 @@ git cloneでまとめてダウンロード
 git clone https://github.com/t-tsukimi/scripts.git
 ```
 ※個別にダウンロードする場合は「Raw」→名前をつけて保存  
-<br />  
+<br />
 ![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/script_download.png)  
 <br />  
 <br />  
