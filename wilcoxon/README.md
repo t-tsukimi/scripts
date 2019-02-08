@@ -12,7 +12,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 ```
 ※個別にダウンロードする場合は「Raw」→名前をつけて保存  
 <br />
-![]https://github.com/t-tsukimi/scripts/blob/master/wilcoxon/image/script_dowonload.png  
+![]https://github.com/t-tsukimi/scripts/blob/master/wilcoxon/image/script_dowonload.png)  
 <br />  
 <br />  
 
