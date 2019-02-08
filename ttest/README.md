@@ -10,7 +10,8 @@ Last update:2019-02-08
 git clone https://github.com/t-tsukimi/scripts.git
 ```
 ※個別にダウンロードする場合は「Raw」→名前をつけて保存  
-![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/script_download.png)
+![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/script_download.png)  
+----------
 <br />  
 <br />  
 
@@ -18,7 +19,8 @@ git clone https://github.com/t-tsukimi/scripts.git
 ・1行A列は空白  
 ・1行B列以降に検定したい変数名(細菌の相対存在量など)を入力し、最後の列には「group」と記入  
 ・A列にサンプル名、B列以降に検定したい変数の値、group列にグループ名を記入  
-![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/input_file.png)
+![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/input_file.png)  
+----------
 <br />  
 <br />  
 
@@ -39,6 +41,7 @@ Rscript ttest.R インプットファイル 検定の種類 補正方法
 
 アウトプットファイル  
 ・「検定の種類_ttest_グループ1_グループ2_補正方法.csv」が出力される。  
+----------
 <br />  
 <br />  
 
