@@ -6,6 +6,7 @@ Last update:2019-02-08
 <br />  
 
 ### 1. スクリプトのダウンロード
+---
 ```sh
 git clone https://github.com/t-tsukimi/scripts.git
 ```
@@ -13,15 +14,16 @@ git clone https://github.com/t-tsukimi/scripts.git
 ![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/script_download.png)  
 <br />  
 <br />  
-----------
+
 ### 2. インプットデータの準備  
+---
 ・1行A列は空白  
 ・1行B列以降に検定したい変数名(細菌の相対存在量など)を入力し、最後の列には「group」と記入  
 ・A列にサンプル名、B列以降に検定したい変数の値、group列にグループ名を記入  
 ![](https://github.com/t-tsukimi/scripts/blob/master/ttest/image/input_file.png)  
 <br />  
 <br />  
-----------
+
 ### 3. 実行
 terminalを起動して下記コマンドを入力。
 ```sh
