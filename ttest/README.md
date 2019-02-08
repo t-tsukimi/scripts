@@ -25,6 +25,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 <br />  
 
 ### 3. 実行
+---
 terminalを起動して下記コマンドを入力。
 ```sh
 Rscript ttest.R インプットファイル 検定の種類 補正方法
@@ -43,8 +44,9 @@ Rscript ttest.R インプットファイル 検定の種類 補正方法
 ・「検定の種類_ttest_グループ1_グループ2_補正方法.csv」が出力される。  
 <br />  
 <br />  
-----------
+
 ### 4. 実行例
+---
 ```sh
 #スチューデントのt検定を実行してFDR（BH）補正したい。
 Rscript ttest.R ttest_input.csv student BH
