@@ -4,7 +4,7 @@ Author:Tomoya Tsukimi
 Last update:2019-02-08  
 <font color="red">注意</font>：使用は自己責任でお願いします  
 <br />  
-
+----------
 ### 1. スクリプトのダウンロード
 ```sh
 git clone https://github.com/t-tsukimi/scripts.git
