@@ -12,7 +12,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 ```
 ※個別にダウンロードする場合は「Raw」→名前をつけて保存  
 <br />
-![](https://github.com/t-tsukimi/scripts/blob/master/wilcoxon/image/script_download.png)  
+![]https://github.com/t-tsukimi/scripts/blob/master/wilcoxon/image/script_dowonload.png  
 <br />  
 <br />  
 
@@ -25,14 +25,16 @@ git clone https://github.com/t-tsukimi/scripts.git
 <br />  
 <br />  
 
+
+
 ### 3. 実行
 ---
 terminalを起動して下記コマンドを入力。
 ```sh
-Rscript ttest.R インプットファイル 検定の種類 補正方法
+Rscript wilcoxon_test.R インプットファイル 検定の種類 補正方法
 ```
 検定の種類  
-・ウィルコクソンの順位和検定（＝マンホイットニーのU検定）：non-paired(デフォルト)
+・ウィルコクソンの順位和検定（＝マンホイットニーのU検定）：non-paired(デフォルト)  
 ・ウィルコクソンの符号順位検定：paired
 
 補正方法  
@@ -52,8 +54,8 @@ Rscript ttest.R インプットファイル 検定の種類 補正方法
 Rscript wilcoxon_test.R wilcoxon_input.csv non-paired BH
 
 #検定の種類と補正方法を指定しない場合はウィルコクソンの順位和検定＋FDR（BH）
-wilcoxon_test.R wilcoxon_input.csv #上記と同じ結果になる
+Rscript wilcoxon_test.R wilcoxon_input.csv #上記と同じ結果になる
 
 #ウィルコクソンの符号順位検定を実行してボンフェローニ補正したい。
-wilcoxon_test.R wilcoxon_input.csv paired bonferroni
+Rscript wilcoxon_test.R wilcoxon_input.csv paired bonferroni
 ```
