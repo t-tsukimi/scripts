@@ -1,6 +1,6 @@
 ## P値の多重検定補正
 Author:Tomoya Tsukimi  
-Last update:2019-03-21
+Last update:2019-03-21  
 <font color="red">注意</font>：使用は自己責任でお願いします  
 <br />  
 
@@ -10,15 +10,14 @@ git cloneでまとめてダウンロード
 ```sh
 git clone https://github.com/t-tsukimi/scripts.git
 ```
-※個別にダウンロードする場合は「Raw」→名前をつけて保存  
-<br />
-![](https://github.com/t-tsukimi/scripts/blob/master/wilcoxon/image/script_dowonload.png)  
+またはClone or download -> Download ZIP  
+![](https://github.com/t-tsukimi/scripts/blob/master/pvalue_correction/image/download_script.png)  
 <br />  
 <br />  
 
 ### 2. インプットデータの準備  
 ---
-・1行A列にpと記入し、その後に補正したいP値を入力してcsvで保存。
+・1行A列にpと記入し、その後に補正したいP値を入力してcsvで保存。  
 ![](https://github.com/t-tsukimi/scripts/blob/master/pvalue_correction/image/p_correction_input.png)  
 <br />  
 <br />  
