@@ -6,11 +6,11 @@ Last update:2019-03-21
 
 ### 1. スクリプトのダウンロード
 ---
-git cloneでまとめてダウンロード
+・git cloneでまとめてダウンロード
 ```sh
 git clone https://github.com/t-tsukimi/scripts.git
 ```
-またはClone or download -> Download ZIP  
+・またはClone or download -> Download ZIP  
 ![](https://github.com/t-tsukimi/scripts/blob/master/pvalue_correction/image/download_script.png)  
 <br />  
 <br />  
