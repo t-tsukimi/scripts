@@ -10,7 +10,8 @@ Last update:2019-03-21
 ```sh
 git clone https://github.com/t-tsukimi/scripts.git
 ```
-・またはClone or download -> Download ZIP  
+<br />
+・あるいはClone or download -> Download ZIP  
 ![](https://github.com/t-tsukimi/scripts/blob/master/pvalue_correction/image/download_script.png)  
 <br />  
 <br />  
