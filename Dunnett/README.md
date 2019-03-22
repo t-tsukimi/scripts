@@ -2,7 +2,9 @@
 Author:Tomoya Tsukimi  
 Last update:2019-03-22  
 <font color="red">注意</font>：使用は自己責任でお願いします  
+参考：[データ科学便覧 Rによるダネット検定](https://data-science.gr.jp/implementation/ist_r_dunnett_test.html)
 <br />  
+
 
 ### 1. スクリプトのダウンロード
 ---
