@@ -24,7 +24,6 @@ method <- args[2]
 
 #ファイルの読み込み(groupの順はコントロールを1番上にすること)
 dt <- read.csv(input, header = T, row.names = 1)
-dt <- read.csv("Dunnett_input.csv", header = T, row.names = 1)
 
 #検定するためのデータ整形
 dt$group <- factor(dt$group, levels = unique(dt$group))
