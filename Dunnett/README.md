@@ -35,7 +35,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 ---
 terminalを起動して下記コマンドを入力。
 ```sh
-Rscript pvalue_correction.R インプットファイル 補正方法
+Rscript Dunnett.R インプットファイル 補正方法
 ```
 補正方法  
 ・Rのstatsパッケージのp.adjust関数のmethod引数に沿う  
