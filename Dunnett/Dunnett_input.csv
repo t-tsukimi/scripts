@@ -1,0 +1,17 @@
+,bacteria1,bacteria2,bacteria3,bacteria4,group
+sample1,20,4,123,12,Ctr
+sample2,21,3,161,12,Ctr
+sample3,17,6,110,41,Ctr
+sample4,22,4,140,19,Ctr
+sample5,28,3,12,3,A
+sample6,23,3,64,5,A
+sample7,29,2,23,1,A
+sample8,31,1,56,6,A
+sample9,18,8,200,10,B
+sample10,17,9,212,12,B
+sample11,15,10,134,40,B
+sample12,18,7,198,32,B
+sample13,21,4,123,15,C
+sample14,22,5,150,23,C
+sample15,17,3,120,30,C
+sample16,19,6,140,12,C
