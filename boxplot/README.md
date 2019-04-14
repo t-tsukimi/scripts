@@ -1,4 +1,4 @@
-## Dunnett検定
+## boxplot
 Author:Tomoya Tsukimi  
 Last update:2019-04-14  
 <font color="red">注意</font>：使用は自己責任でお願いします  
