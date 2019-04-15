@@ -41,7 +41,7 @@ drawboxplot <- function(input, title_size, xlab_size, ylab_size, xangle,
 
 # データの読み込み
 dt <- read.csv("boxplot_input.csv", row.names = 1, header = T, stringsAsFactors = F)
-dt$group <- factor(dt$group, levels = dt$group[unique(dt$order)]) #順序の指定
+dt$group <- factor(dt$group, levels = unique(dt$group)[unique(dt$order)]) #順序の指定
 
 #パラメータの設定
 title_size <- 12 #タイトルサイズ
