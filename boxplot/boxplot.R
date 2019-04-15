@@ -39,6 +39,7 @@ drawboxplot <- function(input, title_size, xlab_size, ylab_size, xangle,
                 guides(fill = guide_legend(title = NULL, ncol = 1))
 }
 
+getwd() #ワーキングディレクトリ確認
 # データの読み込み
 dt <- read.csv("boxplot_input.csv", row.names = 1, header = T, stringsAsFactors = F)
 dt$group <- factor(dt$group, levels = unique(dt$group)[unique(dt$order)]) #順序の指定
