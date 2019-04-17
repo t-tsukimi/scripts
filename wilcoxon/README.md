@@ -59,3 +59,13 @@ Rscript wilcoxon_test.R wilcoxon_input.csv #上記と同じ結果になる
 #ウィルコクソンの符号順位検定を実行してボンフェローニ補正したい。
 Rscript wilcoxon_test.R wilcoxon_input.csv paired bonferroni
 ```
+<br />  
+<br />  
+
+### 5. エラー
+---
+- ウィルコクソンの符号順位検定で2群の値が全く変数があるとエラーになります。その場合は、その変数のみ削除して実行してください。
+```R
+wilcox.exact(c(0, 0, 0, 0, 1), c(0, 0, 0, 0, 1), paired = T)
+#equiscores(scores, m, tol, fact, simulate) でエラー: m less than 1
+```
