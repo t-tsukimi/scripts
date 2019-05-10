@@ -48,5 +48,4 @@ y軸の値をパーセント表示にするか否か
 有意差表示の文字の大きさ
 - 終了すると出力先ディレクトリに「変数名.png」ファイルが出力される。
 - *P* < 0.005; ***, *P* < 0.01; **, *P* < 0.05; *, *P* >= 0.05; N.S.  
-<br>    
 ![](https://github.com/t-tsukimi/scripts/blob/master/boxplotSigBar/image/bacteria5.png)
