@@ -25,8 +25,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 > [原色大辞典](https://www.colordic.org/), [RGBと16進数カラーコードの相互変換ツール](https://www.peko-step.com/tool/tfcolor.html)
 - csvファイル形式で保存する。名前は何でも良いが"boxplotSigBar_input.csv"であればプログラムを修正することなく実行できる。
   
-![](https://github.com/t-tsukimi/scripts/blob/master/boxplotSigBar/image/boxplotSigBar_input_csv.png)  
-
+![](https://github.com/t-tsukimi/scripts/blob/master/boxplotSigBar/image/boxplotSigBar_input.png)  
 
 
 ### 3. 実行
@@ -48,6 +47,7 @@ y軸テキストサイズ(変数の値)
 y軸の値をパーセント表示にするか否か
 有意差表示の文字の大きさ
 - 終了すると出力先ディレクトリに「変数名.png」ファイルが出力される。
-- *P* < 0.005; ***, *P* < 0.01; **, *P* < 0.05; *, *P* >= 0.05; N.S. 
+- *P* < 0.005; ***, *P* < 0.01; **, *P* < 0.05; *, *P* >= 0.05; N.S.  
+<br>  
 ![](https://github.com/t-tsukimi/scripts/blob/master/boxplotSigBar/image/bacteria5.png)  
 
