@@ -21,6 +21,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 - エクセルなどでA列に積み上げたい変数（この場合細菌名）、B列以降にサンプル名を記入する。
 - csvファイル形式で保存する。名前は何でも良いが日本語は避けた方が無難。
 - "CumulativeBarInput.csv"であればプログラムを修正することなく実行できる。
+<br>  
 ![](https://github.com/t-tsukimi/scripts/blob/master/CumulativeBar/image/CumulativeBarInput.png)  
 - 例としてアップしている"CumulativeBarInput.csv"は[QIIMEのIlluminaデータチュートリアル](https://nbviewer.jupyter.org/github/biocore/qiime/blob/1.9.1/examples/ipynb/illumina_overview_tutorial.ipynb)で生成される"table_mc1114_sorted_L6.txt"を加工したもの。
 <br>
@@ -49,7 +50,7 @@ Otherに含めない上位のbacteria数
 - 終了するとワーキングディレクトリにpngファイルが出力される。
 - 表示されるのは指定した数の上位の変数＋Other。
 - 各変数の量の順位付けには入力ファイル1番目のサンプルの値が用いられる。  
-<br>
+<br>  
 ![](https://github.com/t-tsukimi/scripts/blob/master/CumulativeBar/image/CumulativeBarPlot.png)
 
 
