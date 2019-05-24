@@ -22,7 +22,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 - csvファイル形式で保存する。名前は何でも良いが日本語は避けた方が無難。
 - "CumulativeBarInput.csv"であればプログラムを修正することなく実行できる。
 ![](https://github.com/t-tsukimi/scripts/blob/master/CumulativeBar/image/CumulativeBarInput.png)  
-- 例としてあげている"CumulativeBarInput.csv"は[QIIMEのIlluminaデータチュートリアル](https://nbviewer.jupyter.org/github/biocore/qiime/blob/1.9.1/examples/ipynb/illumina_overview_tutorial.ipynb)で生成される"table_mc1114_sorted_L6.txt"を加工したもの。
+- 例としてアップしている"CumulativeBarInput.csv"は[QIIMEのIlluminaデータチュートリアル](https://nbviewer.jupyter.org/github/biocore/qiime/blob/1.9.1/examples/ipynb/illumina_overview_tutorial.ipynb)で生成される"table_mc1114_sorted_L6.txt"を加工したもの。
 <br>
 
 ### 3. 実行
@@ -48,7 +48,8 @@ Otherに含めない上位のbacteria数
 [原色大辞典](https://www.colordic.org/), [RGBと16進数カラーコードの相互変換ツール](https://www.peko-step.com/tool/tfcolor.html)
 - 終了するとワーキングディレクトリにpngファイルが出力される。
 - 表示されるのは指定した数の上位の変数＋Other。
-- 各変数の量の順位付けには入力ファイル1番目のサンプルの値が用いられる。
+- 各変数の量の順位付けには入力ファイル1番目のサンプルの値が用いられる。  
+<br>
 ![](https://github.com/t-tsukimi/scripts/blob/master/CumulativeBar/image/CumulativeBarPlot.png)
 
 
