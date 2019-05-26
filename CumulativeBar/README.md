@@ -27,7 +27,7 @@ git clone https://github.com/t-tsukimi/scripts.git
 
 ### 3. 実行
 ---
-- Rstudioでboxplot.Rを起動する。
+- RstudioでCumulativeBarPlot.Rを起動する。
 - inputファイル名を変更したい場合は55行目、文字サイズや色などの詳細を調整したい場合は17-34行目のコードを修正すれば良い。
 - 修正できるものは以下の通り(分かる人は直接コードをいじってもらえればいいです)
 
